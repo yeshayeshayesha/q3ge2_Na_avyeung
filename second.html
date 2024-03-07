@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body>
+        <div class="whole">
+            <h4>Live, Laugh, love Maloi Ricalde </h1>
+                <div id="imagebox">
+                    <img id="myImage" src="redmaloi.jpg" >
+                </div>
+        
+                <div id="clicks">
+                    <button onclick="changeImage()">CUTE MALOI!</button>
+                    <button onclick="pictureChange()">PRETTY MALOI!</button>
+                </div>
+        
+
+        </div>
+      
+
+        <script>
+            function changeImage()
+            {
+                let myImage = document.getElementById('myImage')
+                .src="cutie.jpg";
+            }
+
+            function pictureChange()
+            {
+                let image=document.getElementById('myImage')
+                .src="prettymaloi.jpg";
+            }
+
+        </script>
+
+<link rel="stylesheet" href="style.css">
+</body>
+
+</html>
+</html>

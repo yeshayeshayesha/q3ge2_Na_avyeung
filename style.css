@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+#imagebox{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#myImage{
+    border: 10px solid pink;
+}
+
+#clicks{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4{
+    font-family: "Dancing Script", cursive ;
+    color: rgb(221, 67, 67);
+    text-align: center;
+}
+
+.whole{
+    background-color: rgb(249, 140, 158);
+}
